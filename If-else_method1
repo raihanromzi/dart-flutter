@@ -1,0 +1,10 @@
+import 'dart:io';
+void main(List<String> arguments){
+int number = int.tryParse(stdin.readlineSync());
+if (number > 0) {
+  print('Positif');
+} else if (number < 0) {
+  print('Negatif');
+) else {
+  print('Nol')
+}
