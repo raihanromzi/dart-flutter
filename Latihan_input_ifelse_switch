@@ -1,0 +1,31 @@
+import 'dart:io';
+void main(List<String> arguments) {
+
+  print ("Sampai kapan kita libur kuliah?");
+  String input1 = stdin.readLineSync();
+  if (input1 == "Mei") {
+    print ("Ya, anda benar");
+  } else {
+    print ("Anda salah");
+  }
+
+  print("Apakah kita terkena korona?");
+  String input2 = stdin.readLineSync();
+  if (input2 == "Ya") {
+    print("Pergilah ke rumah sakit terdekat");
+  } else {
+    print("jangan keluar rumah ya!");
+  }
+
+  print ("Sekarang bulan ke berapa");
+  int time = int.tryParse(stdin.readLineSync());
+  switch (time){
+    case 1 :
+      print ("Januari");
+      break;
+    case 2 :
+      print ("Februari");
+      break;
+    default :
+      print ("Itung aja sendiri");
+  }
