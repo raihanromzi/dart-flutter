@@ -1,0 +1,8 @@
+import 'dart:io';
+void main(List<String> arguments) {
+  string input = stdin.readLineSync();
+  int number = int.tryParse(input);
+  double number 1 =double.tryparse(input);
+  
+  print(number);
+  print(number1);
