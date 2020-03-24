@@ -1,0 +1,22 @@
+import 'dart:io'
+void main (List<String> arguments) {
+  int number = int.tryParse(stdin.readLineSync());
+  
+  switch(number) {
+    case 0 :
+      print ("Nol");
+      break;
+   case 1 :
+      print (number);
+      print ("Satu")
+      break;
+    case 2 :
+      print (number);
+      print ("Dua");
+      break;
+    case 3 :
+      print (number);
+      print ("Tiga");
+    default :
+      print ("Bilangan lain");
+  }
