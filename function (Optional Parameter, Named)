@@ -1,0 +1,25 @@
+// Named Parameter
+void enableflags({bool, bool}){
+...
+}
+
+void main(List<String> arguments){
+  enableflags(bold : true, hidden : false);
+  
+//Optional Parameter
+String say(String from, String message,[String to, String appName]){
+  ...
+}
+
+void main(List<String> arguments){
+  say("Romzi", "Hello", "Zaidan");
+  say("Romzi", "Hello", "Zaidan", "Line");
+  
+//Default Parameter Value *Use = --> memberikan nilai default pada optional parameter. klo gapake NULL.
+void enableflags(bool bold = true, bool hidden = false){
+...
+}
+
+String say(String from, String message,[String to = "Somebody", String appName = "chatApp"]){
+  ...
+}
