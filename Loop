@@ -1,0 +1,23 @@
+import 'dart:io';
+void main(List<String> arguments) {
+  // For
+  for(int i = 0;i <= 5; i++){
+    print("Halo");
+  }
+  for (int j = 5; j >=1; j--){
+    print("Test");
+  }
+  
+  // While
+  int i = 0;
+  while (i < 5){
+    print("Halo ke " + i.toString());
+    i ++;
+  }
+  
+  // Do While
+  int x = 0;
+  do {
+    print("Hai user ke " + x.toString());
+    x ++;
+  } while (x < 5);
