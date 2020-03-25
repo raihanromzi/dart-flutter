@@ -1,0 +1,10 @@
+import 'dart:io';
+
+double luas_segiempat(double panjang, double lebar) => panjang * lebar;
+
+void main(List<String> arguments){
+  Function f;
+  f = luas_segiempat;
+  
+  print(f(6.0, 4.0));
+}
