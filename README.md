@@ -1,2 +1,3 @@
 # dart-flutter
-Berisi file hasil belajar saya mengenai bahasa pemrograman Dart dan Flutter dari awal
+this is my note about how i learn dart-flutter.
+Im newbie so it's only a simple program.
