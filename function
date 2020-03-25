@@ -1,0 +1,22 @@
+import 'dart:io';
+
+double luas_segiempat (double panjang, double lebar){
+  double hasil;
+  hasil = panjang * lebar;
+  return hasil;
+}
+
+void sapa_penonton() {
+  print("Halo penonton");
+}
+
+void main (List<String> arguments){
+  double p,l, luas;
+  
+  p = double.tryparse(stdin.readLineSync());
+  l = double.tryparse(stdin.readLineSync());
+  luas = luas_segiempat(p,l);
+  
+  print(luas);
+  
+  sapa_penonton();
